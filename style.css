@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+.container {
+    width: 1100px;
+    height: 720px;
+    margin: 15px auto;
+    background: rgb(106, 106, 106);
+    padding: 60px 0 0 0;
+}
+.card {
+    width:300px;
+    height: 600px;
+    background: #fff;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px 20px 20px 20px ;
+}
+.card__header {
+    width: 300px;
+    height: 270px;
+    background: linear-gradient(to right, rgba(238, 64, 21, 0.908), rgb(244, 20, 16));
+    border-radius: 20px 20px 0 0 ;
+}
+.header__information {
+    display: flex;
+    flex-direction: column;  
+    margin: 4px 12px;
+}
+.Nike {
+    width: 70px;
+}
+.header__title {
+    text-transform: uppercase;
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: #fff;
+}
+.header__info {
+    font-size: 13px;
+    color: #fff;
+    padding-top: 6px;
+}
+.fast {
+    font-size: 130px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.149);
+}
+.image {
+    width: 320px;
+    bottom: 270px;
+    left: 150px;
+    position: absolute;
+    transition: 1s;
+}
+.card__footer {
+    width: 300px;
+    height: 330px;
+    background: rgb(255, 255, 255);
+    border-radius:0 0 20px 20px ;
+}
+.footer__information {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 15px;
+}
+.footer__title {
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.button {
+    background: rgb(34, 255, 0);
+    border-radius: 5px;
+    margin-left: 10px;
+    padding: 3px;
+}
+.footer__text {
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-top: 5px;
+}
+.colection {
+    font-size: 15px;
+    margin: 4px 10px;
+}
+.footer__size {
+    margin:6px 6px ;
+    display: flex;
+    text-align: center;
+}
+.size__title{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 800;
+}
+.size-1 {
+    margin: 2px 10px;
+    background-color: rgba(100, 100, 100, 0.444);
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}
+.size-2 {
+    margin: 2px 10px;
+    background-color:  rgba(100, 100, 100, 0.444);
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}
+.size-3 {
+    margin: 2px 10px;
+    background-color:  rgba(100, 100, 100, 0.444);
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}
+.sixe-4 {
+    margin: 2px 10px;
+    background-color: rgba(238, 64, 21, 0.908);
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    color: #fff;
+}
+.size-5 {
+    margin: 2px 10px;
+    background-color: rgba(100, 100, 100, 0.444) ;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}
+.footer__colour {
+    margin:6px 6px ;
+    display: flex;
+}
+.colour {
+font-size: 20px;
+font-weight: 700;
+text-transform: uppercase;
+margin: 5px 6px;
+}
+.colour-1 {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    margin: 2px 10px;
+    background: rgb(231, 252, 0);
+    border: 1px solid rgb(119, 119, 119);
+}
+.colour-2 {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    margin: 2px 10px;
+    background: rgb(0, 255, 17);
+}
+.colour-3 {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    margin: 2px 10px;
+    background: rgb(255, 0, 0);
+}
+.button-2 {
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 600;
+    background: rgb(34, 255, 0);
+    color: #fff;
+    padding: 3px 5px;
+    width: 140px;
+    height: 38px;
+    border-radius: 9px;
+    bottom: 120px;
+    left: 150px;
+    position: absolute;
+}
+.card:hover .image{
+    transform: rotate(360deg) scale(1.3);
+}
